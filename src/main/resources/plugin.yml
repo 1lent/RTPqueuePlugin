@@ -1,6 +1,8 @@
 name: rtpqueue1
 version: '${project.version}'
-main: com.brodi.rtpqueue1.Rtpqueue1
+main: com.brodi.rtpqueue.RTPQueuePlugin
 api-version: '1.20'
 commands:
   rtpqueue:
+    description: "Adds or Removes you from the RTP Queue!"
+    usage: "/rtpqueue"
